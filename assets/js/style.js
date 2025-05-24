@@ -1,4 +1,6 @@
-let num = 0;
+let num = prompt("Write the number");
+
+document.querySelector('.num').textContent = num;
 
 function addOne() {
     num++;
