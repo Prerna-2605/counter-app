@@ -71,3 +71,15 @@ body {
     text-align: center;
     margin-bottom: 35px;
 }
+
+@media (max-width:527px) {
+    .box{
+        width: 360px;
+    }
+}
+
+@media (max-width:376px) {
+    .box {
+        width: 260px;
+    }
+}
